@@ -15,5 +15,6 @@ interface Api {
     fun getAstronomyImageOfTheDay(): Call<Apod?>?
 
     @GET("mars-photos/api/v1/rovers/curiosity/photos?sol=1000&page=2&api_key=uej4DeQlgTn9GRLfb98qSj38c2mecIuWspj3JyTN")
-    fun getMarsPhotos(): Call<Rovers?>?
+  //  fun getMarsPhotos(): Call<Rovers?>?
+    suspend fun getRoverPhotos() : Response<Rovers>
 }

@@ -79,9 +79,7 @@ dependencies {
     //Paper
     implementation 'io.github.pilgr:paperdb:2.7.1'
     implementation 'androidx.fragment:fragment-ktx:1.3.2'
-<<<<<<< HEAD
 
-=======
->>>>>>> fb4599f... first commit
+
     implementation 'com.squareup.picasso:picasso:2.71828'
 }

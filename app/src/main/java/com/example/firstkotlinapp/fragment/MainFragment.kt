@@ -20,13 +20,9 @@ import com.bumptech.glide.request.target.Target
 import com.example.firstkotlinapp.R
 import com.example.kotlintraining.api.Api
 import com.example.kotlintraining.api.Instance
-import com.example.kotlintraining.model.Apod
-import com.example.kotlintraining.viewModel.ApodViewModel
+import com.example.firstkotlinapp.viewmodels.ApodViewModel
 import com.google.android.material.button.MaterialButton
 import kotlinx.coroutines.launch
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
 
 class MainFragment() : Fragment() {
     private val viewModel: ApodViewModel by viewModels()

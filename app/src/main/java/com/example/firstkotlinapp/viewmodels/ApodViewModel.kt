@@ -1,7 +1,6 @@
-package com.example.kotlintraining.viewModel
+package com.example.firstkotlinapp.viewmodels
 
 import android.util.Log
-import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.kotlintraining.api.Api
 import com.example.kotlintraining.api.Instance
