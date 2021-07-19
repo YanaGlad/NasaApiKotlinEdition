@@ -7,27 +7,25 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
+import androidx.lifecycle.Observer
 import androidx.lifecycle.viewModelScope
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.firstkotlinapp.R
 import com.example.firstkotlinapp.adapters.RoverRecyclerAdapter
+import com.example.firstkotlinapp.model.RoverModel
 import com.example.firstkotlinapp.viewmodels.RoversViewModel
-import kotlinx.coroutines.Job
-import kotlinx.coroutines.launch
+import kotlinx.coroutines.*
 
 class RoversFragment : Fragment() {
     private val roversViewModel: RoversViewModel by viewModels()
-
+    lateinit var roverRecyclerAdapter: RoverRecyclerAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         Log.d("RoversFragment_TAG", "OnCreate")
 
-        val job: Job = roversViewModel.viewModelScope.launch {
-            roversViewModel.loadRoverPhotos()
-        }
-        suspend { job.join() }
+
     }
 
     override fun onCreateView(
@@ -41,9 +39,22 @@ class RoversFragment : Fragment() {
         recyclerView.setHasFixedSize(true)
         recyclerView.layoutManager = GridLayoutManager(context, 1)
 
+        roversViewModel.viewModelScope.launch {
+            roversViewModel.loadRoverPhotos()
+        }
 
-        val roverRecyclerAdapter = RoverRecyclerAdapter(requireContext(), roversViewModel.roverModels.value!!)
-        recyclerView.adapter = roverRecyclerAdapter
+        roversViewModel.roverModels.observe(viewLifecycleOwner, Observer {
+            Log.d("TAGTAG", "Changed")
+            roverRecyclerAdapter =
+                RoverRecyclerAdapter(requireContext(), roversViewModel.roverModels.value!!)
+            recyclerView.adapter = roverRecyclerAdapter
+        })
+
+
+
+
+
+
         return view
     }
 }

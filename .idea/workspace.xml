@@ -20,21 +20,12 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/firstkotlinapp/adapters/GifsRecyclerAdapter.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/firstkotlinapp/api/Api.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/firstkotlinapp/api/Api.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/firstkotlinapp/fragment/MainFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/firstkotlinapp/fragment/MainFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/firstkotlinapp/adapters/RoverRecyclerAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/firstkotlinapp/adapters/RoverRecyclerAdapter.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/firstkotlinapp/fragment/RoversFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/firstkotlinapp/fragment/RoversFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/firstkotlinapp/fragments/RandomFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/firstkotlinapp/fragments/RecyclerFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/firstkotlinapp/viewmodel/ApodViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/firstkotlinapp/viewmodels/ApodViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/firstkotlinapp/viewmodel/RandomFragmentViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/firstkotlinapp/viewmodel/RecyclerFragmentViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/firstkotlinapp/viewmodel/RecyclerRoversView.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/firstkotlinapp/model/Rover.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/firstkotlinapp/model/Rover.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/firstkotlinapp/viewmodels/RoversViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/firstkotlinapp/viewmodels/RoversViewModel.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,22 +197,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1626297092478" />
-    <state width="1258" height="377" key="GridCell.Tab.0.bottom" timestamp="1626613898763">
+    <state width="1098" height="619" key="GridCell.Tab.0.bottom" timestamp="1626681441762">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1258" height="377" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1626613898763" />
-    <state width="1258" height="377" key="GridCell.Tab.0.center" timestamp="1626613898763">
+    <state width="1098" height="619" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1626681441762" />
+    <state width="1098" height="619" key="GridCell.Tab.0.center" timestamp="1626681441762">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1258" height="377" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1626613898763" />
-    <state width="1258" height="377" key="GridCell.Tab.0.left" timestamp="1626613898763">
+    <state width="1098" height="619" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1626681441762" />
+    <state width="1098" height="619" key="GridCell.Tab.0.left" timestamp="1626681441761">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1258" height="377" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1626613898763" />
-    <state width="1258" height="377" key="GridCell.Tab.0.right" timestamp="1626613898763">
+    <state width="1098" height="619" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1626681441761" />
+    <state width="1098" height="619" key="GridCell.Tab.0.right" timestamp="1626681441762">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1258" height="377" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1626613898763" />
+    <state width="1098" height="619" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1626681441762" />
     <state x="392" y="112" width="923" height="628" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1626298081062">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

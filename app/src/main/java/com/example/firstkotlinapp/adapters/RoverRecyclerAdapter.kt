@@ -29,9 +29,16 @@ class RoverRecyclerAdapter(context: Context, roverModels: ArrayList<RoverModel>)
         return roverModels.size
     }
 
+    fun update(modelList:ArrayList<RoverModel>){
+        roverModels = modelList
+        notifyDataSetChanged()
+    }
+
     init {
         Log.d("RoverAdapter", "ADAPTER")
         this.context = context
         this.roverModels = roverModels
     }
+
+
 }

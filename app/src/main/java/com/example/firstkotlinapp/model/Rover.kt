@@ -2,7 +2,7 @@ package com.example.firstkotlinapp.model
 
 import com.google.gson.annotations.SerializedName
 
-class Rover(
+data class Rover(
     @field:SerializedName("id") private val id: Int ,
 
     //    @SerializedName("name")
